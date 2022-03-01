@@ -1,1 +1,37 @@
+/* Components */
 
+/* Navbar */
+.navbar {
+  background-color: #373737;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar .navbar-logo {
+  height: 30px;
+}
+.navbar .navbar-logo img {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+}
+
+.navbar .navbar-btn {
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar .navbar-btn .btn {
+  padding: 0;
+  border: 0;
+  margin: 0 30px;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: #373737;
+  font-weight: bold;
+  font-style: normal;
+}
